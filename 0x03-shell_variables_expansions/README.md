@@ -1,46 +1,36 @@
-cat > README.md << 'EOF'
 # 0x03. Shell, init files, variables and expansions
 
-## Description
-This project is part of the ALX System Engineering & DevOps curriculum.  
-It covers shell initialization files, variables, expansions, and creating executable scripts in Bash.
+## Project Description
+This project focuses on understanding and using shell initialization files, variables, expansions, and shell arithmetic. You will practice creating scripts that manipulate environment and local variables, handle paths, and perform mathematical operations in Bash.
 
-## Learning Objectives
-By the end of this project, you should be able to explain:
-- What happens when you type `$ ls -l *.txt`
-- How to create, update, and list environment variables
-- The difference between local and global variables
-- What a reserved variable is
-- How to print the value of a variable
-- How to set a new variable
-- How to export a variable to the environment
-- How to use the `alias` command
-- How to perform arithmetic operations in the shell
+---
 
-## Requirements
-- All scripts must be executable
-- The first line of each script should be `#!/bin/bash`
-- All scripts should end with a new line
-- You should not use `awk`, `perl`, or any other programming language
-- Files should be tested on Ubuntu 20.04 LTS
+## Files and Descriptions
 
-## Files
-| Filename | Description |
-|-----------|-------------|
-| `0-alias` | Creates an alias |
-| `1-hello_you` | Prints `hello user`, where `user` is the current Linux user |
-| `2-path` | Adds `/action` to the `PATH` |
-| `3-paths` | Counts the number of directories in the `PATH` |
-| `4-global_variables` | Lists environment variables |
-| `5-local_variables` | Lists all local, environment variables and functions |
-| `6-create_local_variable` | Creates a new local variable |
-| `7-create_global_variable` | Creates a new global variable |
-| `8-true_knowledge` | Prints the result of an arithmetic operation |
-| `9-divide_and_rule` | Prints the result of division |
-| `10-love_exponent_breath` | Displays the result of power operation |
-| `11-binary_to_decimal` | Converts binary to decimal |
-| `12-combinations` | Prints all combinations of two letters except `oo` |
-| `13-print_float` | Prints a number with two decimal places |
-| `14-decimal_to_hexadecimal` | Converts from decimal to hexadecimal |
+| File | Description |
+|------|--------------|
+| **0-alias** | Creates an alias named `ls` with the value `rm *` |
+| **1-hello_you** | Prints `hello` followed by the current Linux user |
+| **2-path** | Adds `/action` to the `PATH`. `/action` should be the last directory the shell looks into when looking for a program |
+| **3-paths** | Counts the number of directories in the `PATH` |
+| **4-global_variables** | Lists all environment variables |
+| **5-local_variables** | Lists all local variables, environment variables, and functions |
+| **6-create_local_variable** | Creates a new local variable `BEST=School` |
+| **7-create_global_variable** | Creates a new global variable `BEST=School` |
+| **8-true_knowledge** | Prints the result of adding `128` to the value stored in the environment variable `TRUEKNOWLEDGE` |
+| **9-divide_and_rule** | Prints the result of dividing `POWER` by `DIVIDE` |
+| **10-love_exponent_breath** | Displays the result of `BREATH` to the power `LOVE` |
+| **11-binary_to_decimal** | Converts a number from base 2 (binary) to base 10 (decimal) |
+| **12-combinations** | Prints all possible combinations of two lowercase letters, except `oo` |
+| **13-print_float** | Prints a number stored in the environment variable `NUM` with two decimal places |
+| **100-decimal_to_hexadecimal** | Converts a number from base 10 to base 16 (hexadecimal) |
+| **101-rot13** | Encodes and decodes text using ROT13 encryption |
+| **102-odd** | Prints every other line from the input, starting with the first line |
+| **103-water_and_stir** | Adds two numbers stored in `WATER` and `STIR` (custom bases) and prints the result in base `bestchol` |
 
-EOF
+---
+
+## Author
+**Cornelius Oaikhienan**  
+[GitHub: @techbycornel](https://github.com/techbycornel)
+
